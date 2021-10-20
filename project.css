@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: wheat;
+  height: 100vh;
+}
+ul {
+  float: right;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  color: rgb(209, 180, 125);
+  padding: 5px 20px;
+  border: 1px solid #fff;
+}
+ul li a:hover {
+  background-color: white;
+  color: wheat;
+}
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(h.jpg);
+  text-align: center;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+#video {
+  width: 300px;
+  position: relative;
+  bottom: 90%;
+  left: 5%;
+}
+
+.home11 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+.home11 h1 {
+  font-size: 20px;
+  color: rgb(122, 116, 48);
+  text-align: center;
+  margin-right: 5%;
+  margin-left: 50%;
+  font-family: "Dancing Script", cursive;
+}
+.home11 p {
+  margin-right: 5%;
+  margin-left: 50%;
+  font-size: 20px;
+  color: rgb(84, 105, 84);
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}
+
+.d {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 50px;
+  padding: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 0%;
+}
+.d img {
+  color: black;
+}
+.d p {
+  font-size: 10px;
+  color: rgb(84, 105, 84);
+  text-align: right;
+  font-family: "Dancing Script", cursive;
+}
+
+.d1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.d1 img {
+  width: 415px;
+  height: 250px;
+  border: double;
+  border-width: 2px;
+}
+.d2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.d2 img {
+  width: 625px;
+  height: 250px;
+  border: double;
+  border-width: 2px;
+}
+.home h1 {
+  padding-top: 17%;
+  color: wheat;
+  font-size: 50px;
+}
+.home p {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 120%;
+  color: rgb(152, 152, 136);
+}
+
+.home button {
+  border: 1px solid #fff;
+  padding: 5px 20px;
+  color: rgb(84, 105, 84);
+}
+
+a {
+  color: rgb(33, 68, 29);
+}
+p {
+  font-size: 20px;
+  color: rgb(84, 105, 84);
+  text-align: right;
+  font-family: "Dancing Script", cursive;
+}
+.bi {
+  position: relative;
+  width: 100%;
+  max-width: 1300px;
+}
+
+.bi img {
+  width: 1258px;
+  height: auto;
+  border: double;
+  margin-bottom: -1%;
+}
+
+.bi .btn {
+  position: absolute;
+  top: 60%;
+  right: 10%;
+  background-color: #807229;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.d1 .btnn {
+  position: relative;
+  bottom: 20%;
+  left: 80%;
+  background-color: #8d7d2e;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.d1 .btn2 {
+  position: relative;
+  bottom: 20%;
+  left: 80%;
+  background-color: #8d7d2e;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.d2 .btn3 {
+  position: relative;
+  bottom: 20%;
+  left: 80%;
+  background-color: #8d7d2e;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.d2 .btn4 {
+  position: relative;
+  bottom: 30%;
+  left: 70%;
+  background-color: #8d7d2e;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
