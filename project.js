@@ -46,7 +46,7 @@ m.onclick = function () {
   vi.load();
   vi.play();
 };
-const n = document.querySelector(".btn2");
+const n = document.querySelector(".btn3");
 n.onclick = function () {
   var vi = document.getElementsByTagName("video")[0];
   var so = vi.getElementsByTagName("source")[0];
@@ -54,7 +54,7 @@ n.onclick = function () {
   vi.load();
   vi.play();
 };
-const h = document.querySelector(".btn3");
+const h = document.querySelector(".btn2");
 h.onclick = function () {
   var vi = document.getElementsByTagName("video")[0];
   var so = vi.getElementsByTagName("source")[0];
@@ -70,3 +70,14 @@ j.onclick = function () {
   vi.load();
   vi.play();
 };
+
+function con() {
+  const l = document.querySelector("#length").value;
+  const a = parseFloat(l);
+  const w = document.querySelector("#weight").value;
+  const b = parseFloat(w);
+  let bmi = b / (a * a);
+
+  const m = document.querySelector("#co");
+  m.innerText = "BMI IS  " + bmi;
+}

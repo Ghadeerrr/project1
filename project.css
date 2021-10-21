@@ -2,11 +2,26 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   background-color: wheat;
-  height: 100vh;
 }
+
+input[type="text"] {
+  background: wheat;
+  width: 200px;
+  height: 30px;
+  outline: none;
+  padding: 0 25px;
+  border-radius: 25px 0 0 25px;
+}
+input[type="submit"] {
+  background: rgb(93, 100, 93);
+  width: 80px;
+  height: 30px;
+  border-radius: 0 25px 25px 0;
+  color: rgb(209, 180, 125);
+}
+
 ul {
   float: right;
 }
@@ -20,9 +35,10 @@ ul li a {
   border: 1px solid #fff;
 }
 ul li a:hover {
-  background-color: white;
+  background-color: rgb(73, 150, 73);
   color: wheat;
 }
+
 .home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(h.jpg);
@@ -30,120 +46,58 @@ ul li a:hover {
   background-size: 100% 100%;
   height: 100vh;
 }
-#video {
-  width: 300px;
-  position: relative;
-  bottom: 90%;
-  left: 5%;
-}
-
-.home11 {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 80vh;
-}
-.home11 h1 {
-  font-size: 20px;
-  color: rgb(122, 116, 48);
-  text-align: center;
-  margin-right: 5%;
-  margin-left: 50%;
-  font-family: "Dancing Script", cursive;
-}
-.home11 p {
-  margin-right: 5%;
-  margin-left: 50%;
-  font-size: 20px;
-  color: rgb(84, 105, 84);
-  text-align: center;
-  font-family: "Dancing Script", cursive;
-}
-
-.d {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  column-gap: 50px;
-  row-gap: 50px;
-  padding: 30px;
-  margin-right: 10px;
-  margin-left: 10px;
-  padding: 0%;
-}
-.d img {
-  color: black;
-}
-.d p {
-  font-size: 10px;
-  color: rgb(84, 105, 84);
-  text-align: right;
-  font-family: "Dancing Script", cursive;
-}
-
-.d1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.d1 img {
-  width: 415px;
-  height: 250px;
-  border: double;
-  border-width: 2px;
-}
-.d2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.d2 img {
-  width: 625px;
-  height: 250px;
-  border: double;
-  border-width: 2px;
-}
 .home h1 {
   padding-top: 17%;
-  color: wheat;
-  font-size: 50px;
+  color: rgb(236, 209, 161);
+  font-size: 60px;
 }
 .home p {
   text-align: center;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 20px;
+  color: rgb(135, 135, 114);
+}
+
+#video {
+  width: 418px;
+  position: relative;
+  bottom: 89%;
+  left: 33.2%;
+}
+
+.home11 h1 {
+  font-size: 30px;
+  color: rgb(122, 116, 48);
+  text-align: center;
+  margin-right: 30%;
+  margin-left: 30%;
   font-family: "Dancing Script", cursive;
-  font-size: 120%;
-  color: rgb(152, 152, 136);
 }
-
-.home button {
-  border: 1px solid #fff;
-  padding: 5px 20px;
-  color: rgb(84, 105, 84);
-}
-
-a {
-  color: rgb(33, 68, 29);
-}
-p {
+.home11 p {
+  margin-right: 30%;
+  margin-left: 30%;
   font-size: 20px;
   color: rgb(84, 105, 84);
-  text-align: right;
-  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-family: "Courgette", cursive;
+  font-family: "Ephesis", cursive;
+  font-family: "Old Standard TT", serif;
+  font-family: "Shadows Into Light", cursive;
+  font-family: "Special Elite", cursive;
 }
 .bi {
-  position: relative;
+  background-image: url(SPORT.jpg);
+  text-align: right;
+  height: 250px;
   width: 100%;
-  max-width: 1300px;
-}
-
-.bi img {
-  width: 1258px;
-  height: auto;
-  border: double;
+  border-color: wheat;
   margin-bottom: -1%;
 }
-
 .bi .btn {
-  position: absolute;
-  top: 60%;
-  right: 10%;
+  position: relative;
+  bottom: 0%;
+  top: 30%;
+  right: 3%;
   background-color: #807229;
   color: white;
   font-size: 16px;
@@ -153,6 +107,61 @@ p {
   border-radius: 5px;
   text-align: center;
 }
+.bi h1 {
+  color: rgb(236, 209, 161);
+  padding-top: 2%;
+  font-size: 50px;
+  text-align: right;
+}
+.d {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 50px;
+  padding: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 0%;
+}
+.d h1 {
+  font-size: 18px;
+  color: rgb(122, 116, 48);
+  text-align: center;
+}
+
+.d p {
+  font-size: 14px;
+  color: rgb(16, 17, 93);
+  text-align: left;
+}
+
+.d1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: -3%;
+}
+.d1 img {
+  width: 100%;
+  height: 250px;
+  border-top: solid;
+  border-color: rgb(93, 100, 93);
+}
+
+.d2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.d2 img {
+  width: 99.7%;
+  height: 250px;
+  border-top: solid;
+  border-bottom: solid;
+  border-left: solid;
+
+  border-color: rgb(93, 100, 93);
+}
+
 .d1 .btnn {
   position: relative;
   bottom: 20%;
@@ -200,4 +209,171 @@ p {
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
+}
+.bi2 {
+  background-image: url(fit.jpg);
+  text-align: left;
+  height: 250px;
+  width: 100%;
+
+  margin-top: -3%;
+}
+
+.bi2 h2 {
+  color: rgb(236, 209, 161);
+  padding-top: 2%;
+  font-size: 20px;
+  font-family: "Ephesis", cursive;
+  font-family: "Old Standard TT", serif;
+  font-family: "Shadows Into Light", cursive;
+  font-family: "Special Elite", cursive;
+}
+label {
+  color: rgb(38, 53, 38);
+  font-size: 18px;
+}
+input {
+  background: rgb(209, 180, 125);
+  width: 80px;
+  height: 20px;
+  border-radius: 25px 25px 25px 25px;
+}
+
+button {
+  border-radius: 5px solid;
+  font-size: 16px;
+  padding: 5px 20px;
+  background-color: rgb(84, 105, 84);
+  color: wheat;
+}
+#video {
+  width: 420px;
+  position: absolute;
+  top: 195%;
+}
+.ourTeam-hedding p {
+  color: #979797;
+}
+.ourTeam-hedding strong {
+  color: black;
+}
+.ourTeam-hedding {
+  margin-bottom: 50px;
+}
+
+.ourTeam-box {
+  border-radius: 2px;
+  border-top: 6px solid #3a4746;
+  margin: 0px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+.section1 {
+  padding: 30px 0px 30px 0px;
+}
+.section1 img {
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+}
+.section2 p {
+  font-weight: bold;
+  color: #3a4746;
+  letter-spacing: 1px;
+}
+.section2 span {
+  color: #979597;
+}
+.section3 {
+  background-color: #3a4746;
+}
+.section3 i {
+  color: #ffffff !important;
+  padding: 15px;
+  font-size: 15px;
+}
+.section-info {
+  border-top: 6px solid #0f3a1d;
+}
+.section-info p {
+  color: #0f3a1d;
+}
+.section-info .section3 {
+  background-color: #0f3a1d;
+}
+.section-danger {
+  border-top: 6px solid #b6a547;
+}
+.section-danger p {
+  color: #b6a547;
+}
+.section-danger .section3 {
+  background-color: #b6a547;
+}
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 50px;
+
+  padding: 0%;
+}
+h1 {
+  color: rgb(25, 43, 25);
+  font-size: 60px;
+  text-align: center;
+}
+hr {
+  color: #807229;
+  margin-top: -5%;
+  margin-bottom: -12%;
+}
+@media screen and (max-width: 400px) {
+  body {
+    background-color: aqua;
+  }
+  .bi {
+    background-image: url(SPORT.jpg);
+    text-align: right;
+    height: 250px;
+    width: 50%;
+    border-color: wheat;
+    background-color: aqua;
+  }
+  .d {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .row {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+    padding: 0%;
+  }
+  #video {
+    width: 300px;
+
+    position: relative;
+    left: 20%;
+  }
+
+  .bi2 {
+    width: 600px;
+  }
+}
+@media screen and (min-width: 786px) and (max-width: 1024px) {
+  .row {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+    padding: 0%;
+  }
+  #video {
+    width: 300px;
+  }
 }
